@@ -14,7 +14,7 @@ owner:
   twitter: mogetutu
   facebook: mogetutu
   github: mogetutu
-  stackexchange: mogetutu
+  stackexchange: http://stackexchange.com/mogetutu
   linkedin:
   instagram: mogetutu
   flickr:
@@ -31,10 +31,8 @@ bing_verify:
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: Theme Setup
-    url: /theme-setup
-  - title: External Link
-    url: http://mademistakes.com
+  - title: MFarm Limited
+    url: http://mfarm.co.ke
     external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
