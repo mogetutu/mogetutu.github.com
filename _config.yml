@@ -11,12 +11,12 @@ owner:
   bio:            "I am Mogetutu Isaak Senior Developer at MFarm, Love working on PHP and Ruby Projects."
   email:          Isaak@mogetutu.com
   # Social networking links used in footer. Update and remove as you like.
-  twitter: http://twitter.com/mogetutu
-  facebook: https://facebook.com/mogetutu
-  github: https://github.com/mogetutu
-  stackexchange:
+  twitter: mogetutu
+  facebook: mogetutu
+  github: mogetutu
+  stackexchange: mogetutu
   linkedin:
-  instagram:
+  instagram: mogetutu
   flickr:
   tumblr:
   # For Google Authorship https://plus.google.com/authorship
