@@ -138,7 +138,7 @@ footer hr {
     overflow: hidden; }
     .hex-shape.big:before, .hex-shape.big:after {
       display: block;
-      border: 22px solid white;
+      border: 23px solid white;
       content: "";
       position: absolute; }
     .hex-shape.big:after {
