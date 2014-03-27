@@ -1,21 +1,21 @@
-title:            How nice!
-description:      Mu-An Chiou. Designer and front-end developer living in London. I am very nice.
-url:              http://muan.co
+title:            Some Pixie Dust!
+description:      Isaak Mogetutu. Software Developer living in Nairobi. I love cycling.
+url:              http://mogetutu.com
 permalink:        pretty
 pygments:         true
 markdown:         rdiscount
 folder:           stuff
 rdiscount:
   extensions:     [smart]
-google_analytics: UA-21332781-7
-timezone:         Europe/London
+google_analytics: UA-27869799-1
+timezone:         Africa/Nairobi
 paginate: 5
-links: 
+links:
   - name:         About
     url:          /about
   - name:         GitHub
-    url:          http://github.com/muan
+    url:          http://github.com/mogetutu
   - name:         Twitter
-    url:          http://twitter.com/muanchiou
+    url:          http://twitter.com/mogetutu
   - name:         Instagram
-    url:          http://instagram.com/muanchiou
+    url:          http://instagram.com/mogetutu
