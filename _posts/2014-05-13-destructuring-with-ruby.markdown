@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Destructuring with Ruby
 layout: post
 tags: [ruby]
