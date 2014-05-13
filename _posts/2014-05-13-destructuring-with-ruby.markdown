@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 title: Destructuring with Ruby
 layout: post
 tags: [ruby]
@@ -13,13 +13,16 @@ x # => 1
 ``
 If you have done Ruby for a while, you have probably seen some code like that before. One place where it can be quite useful is to return multiple values from a function like so: (apologies for the contrived example)
 
+``ruby
 def min_max(array)
   [array.min, array.max]
 end
 min, max = min_max([3,5,2])
 min # => 2
 max # => 5
+```
 The Splat Operator
+---
 Ruby has some more tricks up its sleeve. One of these is the splat (*) operator. Splat will perform two different operations depending on which side of the assignment it is used. The operation you've most likely run into is called slurp or collect. This takes a variable number of arguments and collects it into an array. Its often used to define methods that can take a variable number of arguments. One caveat is that you can only splat the last parameter to a method. Let's refactor our last example to use splat.
 
 def min_max(*values)
