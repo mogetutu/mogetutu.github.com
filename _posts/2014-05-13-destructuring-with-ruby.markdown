@@ -7,9 +7,10 @@ categories: [programming]
 ---
 The Basics
 So what is destructuring? The most concise definition I found is from Common Lisp the Language. Destructuring allows you to bind a set of variables to a corresponding set of values anywhere that you can normally bind a value to a single variable. It is a powerful feature of Clojure that lets you write some very elegant code. For more information about Clojure's features, I recommend you check out Jay Field's blog post on the subject. While destructuring in Ruby is not quite as powerful as Clojure, you can still do some cool stuff. Let's kick this off with an example.
-
+``ruby
 x, y = [1, 2]
 x # => 1
+``
 If you have done Ruby for a while, you have probably seen some code like that before. One place where it can be quite useful is to return multiple values from a function like so: (apologies for the contrived example)
 
 def min_max(array)
